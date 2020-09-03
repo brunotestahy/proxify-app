@@ -1,0 +1,18 @@
+.app-container {
+    position: relative;
+    height: 100vh;
+}
+
+.page-layout {
+    border-radius: 48px 0 0 0;
+    height: 100vh;
+    background: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.page-layout-swiped {
+    transform: rotate(-8deg) translate(62vw, 6vh);
+}

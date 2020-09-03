@@ -4,7 +4,7 @@ import {
     Switch,
     Route
 } from 'react-router-dom';
-import './App.css';
+import './App.scss';
 import Navigation from '../Navigation/Navigation';
 import Start from '../Start/Start';
 import Cart from '../Cart/Cart';
@@ -13,7 +13,7 @@ import Orders from '../Orders/Orders';
 
 function App() {
     return (
-        <div>
+        <div className='app-container'>
             <Navigation/>
             <BrowserRouter>
                 <Switch>

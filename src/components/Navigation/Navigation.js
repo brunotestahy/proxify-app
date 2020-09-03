@@ -1,9 +1,10 @@
 import React from 'react';
+import './Navigation.scss';
 
 function Navigation() {
     return (
-        <div>
-            <h2>Home</h2>
+        <div className='navigation'>
+            <h2>Navigation</h2>
         </div>
     );
 }
