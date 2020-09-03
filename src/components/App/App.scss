@@ -11,8 +11,9 @@
     top: 0;
     left: 0;
     width: 100%;
-}
+    transition: transform .1s linear;
 
-.page-layout-swiped {
-    transform: rotate(-8deg) translate(62vw, 6vh);
+    &.page-layout-swiped {
+        transform: rotate(-8deg) translate(62vw, 6vh);
+    }
 }

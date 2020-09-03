@@ -14,8 +14,8 @@ import Orders from '../Orders/Orders';
 function App() {
     return (
         <div className='app-container'>
-            <Navigation/>
             <BrowserRouter>
+                <Navigation/>
                 <Switch>
                     <Route exact path="/">
                         <Start/>

@@ -3,4 +3,54 @@
     border-radius: 48px 0 0 0;
     height: calc(100vh - 1px);
     transform: translateY(1px);
+    display: flex;
+    align-items: center;
+
+    &.menu-nav {
+        max-width: 176px;
+    }
+}
+
+.menu-title {
+    font-family: Avenir Black;
+    font-size: 28px;
+    color: white;
+    margin-left: 20px;
+}
+
+.list-group {
+    border-radius: 0;
+    border-bottom: 1px solid #84818E;
+    padding-bottom: 48px;
+
+    .list-group-item {
+        font-family: Avenir;
+        font-size: 20px;
+        color: white;
+        background: transparent;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-decoration: none;
+        letter-spacing: 1px;
+        border: none;
+
+        &.active {
+            border-radius: 15.5px;
+            background: rgba(252, 128, 116, .2);
+            color: #FC8074;
+        }
+    }
+}
+
+.logout {
+    display: block;
+    padding-top: 60px;
+    font-family: Avenir;
+    font-size: 20px;
+    color: white !important;
+    background: transparent;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    text-decoration: none !important;
+    letter-spacing: 1px;
 }
